@@ -19,6 +19,8 @@ function App() {
         <Route element={<Layout />}>
           <Route path="/" element={<Home />}/>
           <Route path="/introduction/" element={<div>hello</div>}/>
+          <Route path="/experience/" element={<div>hello</div>}/>
+          <Route path="/skill/" element={<div>hello</div>}/>
           {/* <Route path="/myaccount" element={
             <ProtectedRoute>
               <MyAccount />
